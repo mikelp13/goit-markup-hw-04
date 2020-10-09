@@ -118,8 +118,19 @@ h6 {
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--hero-footer-bg-color);
   text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  height: 600px;
+  background-color: var(--hero-footer-bg-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/main-img.jpg');
 }
 
 .hero-section-title {
