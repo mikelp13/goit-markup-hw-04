@@ -106,6 +106,7 @@ h6 {
   display: flex;
   margin-left: auto;
 }
+
 .contacts .item + .item {
   margin-left: 50px;
 }
@@ -172,9 +173,32 @@ h6 {
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
-.features-item {
-  width: 270px;
+
+.features-item::before {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  margin-bottom: 30px;
+  content: '';
+  background-color: var(--background-color);
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+}
+
 .features-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -187,6 +211,7 @@ h6 {
 .features-text {
   margin-top: 0;
   margin-bottom: 0;
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
 }
