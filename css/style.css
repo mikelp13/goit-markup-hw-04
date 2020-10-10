@@ -244,6 +244,9 @@ h6 {
 .img-item:not(:last-child) {
   margin-right: 30px;
 }
+.img {
+  display: block;
+}
 
 /* TEAM SECTION */
 .team-list {
