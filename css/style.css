@@ -371,6 +371,30 @@ h6 {
   background-color: var(--hero-footer-bg-color);
 }
 
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-links {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.footer-social-link {
+  --color4: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
 .footer-inverse-logo {
   color: var(--primary-white-color);
 }
