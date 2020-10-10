@@ -283,10 +283,38 @@ h6 {
 
 .profession-title {
   margin: 0;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
 }
 
+.social-links-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+.social-logo {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+.social-link:focus,
+.social-link:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  --color4: var(--primary-white-color);
+}
 /* CLIENTS SECTION */
 .clients-section {
   padding-top: 94px;
