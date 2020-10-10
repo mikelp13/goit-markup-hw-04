@@ -8,6 +8,7 @@
   --footer-contact-text: rgba(255, 255, 255, 0.6);
   --header-border-color: #ececec;
   --border-color: #eeeeee;
+  --clients-border-color: #afb1b8;
 }
 
 body {
@@ -78,7 +79,6 @@ h6 {
 }
 
 .site-nav .link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -88,12 +88,12 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .link:focus,
 .link:hover {
   color: var(--accent-color);
+  --color3: var(--accent-color);
 }
 
 .site-nav .active {
@@ -105,14 +105,21 @@ h6 {
 .contacts {
   display: flex;
   margin-left: auto;
+  align-content: center;
 }
 
 .contacts .item + .item {
   margin-left: 50px;
 }
-.contacts a {
+.link {
+  display: flex;
+  align-items: center;
   color: var(--text-color);
   text-decoration: none;
+}
+
+.contacts-logo {
+  margin-right: 10px;
 }
 
 /* HERO SECTION */
@@ -277,6 +284,52 @@ h6 {
 .profession-title {
   font-size: 16px;
   line-height: 1.18;
+}
+
+/* CLIENTS SECTION */
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* .clients-list {
+  display: flex;
+} */
+
+/* .clients-item + .clients-item {
+  margin-left: 30px;
+} */
+
+/* .clients-item::before {
+  display: flex;
+  content: '';
+  height: 90px;
+  width: 170px;
+  border: 1px solid var(--clients-border-color);
+  border-radius: 4px;
+} */
+
+.clients-list {
+  display: flex;
+}
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+.clients-link {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--clients-border-color);
+  border-radius: 4px;
+}
+.clients-logo {
+  align-self: center;
+}
+.clients-link:focus,
+.clients-link:hover {
+  border: 1px solid var(--accent-color);
+  --color4: var(--accent-color);
 }
 
 /* FOOTER */
