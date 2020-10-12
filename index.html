@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -18,7 +18,7 @@
   <header class="page-header">
     <div class="container header-nav">
       <nav class="main-nav">
-        <a href="./index.html" class="studio-logo">
+        <a href="./index.html" aria-label="логотип" class="studio-logo">
           <span class="logo">Web</span>Studio</a>
 
         <ul class="site-nav">
@@ -29,17 +29,21 @@
       </nav>
 
       <ul class="contacts">
-        <li class="item"><a href="info@devstudio.com" class="link">
+        <li class="item">
+          <a href="mailto:info@devstudio.com" class="link">
             <svg class="contacts-logo" width="16" height="12">
               <use href="./images/icons-sprite.svg#icon-envelope"> </use>
             </svg>
-            info@devstudio.com</a></li>
+            info@devstudio.com</a>
+        </li>
 
-        <li class="item"><a href="tel:+380961111111" class="link">
+        <li class="item">
+          <a href="tel:+380961111111" class="link">
             <svg class="contacts-logo" width="10" height="16">
               <use href="./images/icons-sprite.svg#icon-smartphone"> </use>
             </svg>
-            +38 096 111 11 11</a></li>
+            +38 096 111 11 11</a>
+        </li>
       </ul>
     </div>
   </header>
@@ -56,27 +60,28 @@
 
     <!-- FEATURES SECTION -->
     <section class="features-section container">
+      <h2 class="section-title visually-hidden">Особенности</h2>
       <ul class="features-list">
         <li class="features-item icon-antenna">
-          <h2 class="features-title">Внимание к деталям</h2>
+          <h3 class="features-title">Внимание к деталям</h3>
           <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.
           </p>
         </li>
 
         <li class="features-item icon-clock">
-          <h2 class="features-title">Пунктуальность</h2>
+          <h3 class="features-title">Пунктуальность</h3>
           <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за
             собой.</p>
         </li>
 
         <li class="features-item icon-diagram">
-          <h2 class="features-title">Планирование</h2>
+          <h3 class="features-title">Планирование</h3>
           <p class="features-text">Равным образом консультация с широким активом в значительной степени
             обуславливает.</p>
         </li>
 
         <li class="features-item icon-astronaut">
-          <h2 class="features-title">Современные технологии</h2>
+          <h3 class="features-title">Современные технологии</h3>
           <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
       </ul>
@@ -84,21 +89,22 @@
 
     <!-- ABOUT US SECTION -->
     <section class="about-section container">
-      <h3 class="section-title">Чем мы занимаемся</h3>
+      <h2 class="section-title">Чем мы занимаемся</h2>
       <ul class="about-list">
 
         <li class="img-item"><a href="">
-            <img src="./images/img-1.jpg" alt="Codding" width="370" class="img">
+            <img src="./images/img-1.jpg" alt="Написание кода" width="370" height="294" class="img">
           </a>
         </li>
 
         <li class="img-item"><a href="">
-            <img src="./images/img-2.jpg" alt="Adapting websites for mobile devices" width="370" class="img">
+            <img src="./images/img-2.jpg" alt="Адаптивный дизайн сайта" width="370" height="294" class="img">
           </a>
         </li>
 
         <li class="img-item"><a href="">
-            <img src="./images/img-3.jpg" alt=" Good color scheme for your website" width="370" class="img">
+            <img src="./images/img-3.jpg" alt="Подбор цветовой палитры для вашего сайта" width="370" height="294"
+              class="img">
           </a>
         </li>
       </ul>
@@ -108,16 +114,16 @@
     <section class="team-section">
 
       <div class="container">
-        <h3 class="section-title">Наша команда</h3>
+        <h2 class="section-title">Наша команда</h2>
         <ul class="team-list">
           <li class="team-card">
-            <img src="./images/photo-1.jpg" alt="photo-1" width="270" class="card-photo">
-            <h4 class="name-title">Игорь Демьяненко</h4>
+            <img src="./images/photo-1.jpg" alt="фото Игоря Демьяненка" width="270" height="260" class="card-photo">
+            <h3 class="name-title">Игорь Демьяненко</h3>
             <p class="profession-title">Product Designer</p>
 
             <ul class="social-links-list">
               <li class="social-item">
-                <a href="" aria-label="Instagram link" class="social-link">
+                <a href="" aria-label="Instagram линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-instagram">
                     </use>
@@ -125,7 +131,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Twitter link" class="social-link">
+                <a href="" aria-label="Twitter линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-twitter">
                     </use>
@@ -133,7 +139,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Facebook link" class="social-link">
+                <a href="" aria-label="Facebook линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-facebook">
                     </use>
@@ -141,7 +147,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Linkedin link" class="social-link">
+                <a href="" aria-label="Linkedin линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-linkedin">
                     </use>
@@ -152,13 +158,13 @@
           </li>
 
           <li class="team-card">
-            <img src="./images/photo-2.jpg" alt="photo-2" width="270" class="card-photo">
-            <h4 class="name-title">Ольга Репина</h4>
+            <img src="./images/photo-2.jpg" alt="фото Ольги Репиной" width="270" height="260" class="card-photo">
+            <h3 class="name-title">Ольга Репина</h3>
             <p class="profession-title">Frontend Developer</p>
 
             <ul class="social-links-list">
               <li class="social-item">
-                <a href="" aria-label="Instagram link" class="social-link">
+                <a href="" aria-label="Instagram линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-instagram">
                     </use>
@@ -166,7 +172,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Twitter link" class="social-link">
+                <a href="" aria-label="Twitter  линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-twitter">
                     </use>
@@ -174,7 +180,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Facebook link" class="social-link">
+                <a href="" aria-label="Facebook линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-facebook">
                     </use>
@@ -182,7 +188,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Linkedin link" class="social-link">
+                <a href="" aria-label="Linkedin линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-linkedin">
                     </use>
@@ -193,13 +199,13 @@
           </li>
 
           <li class="team-card">
-            <img src="./images/photo-3.jpg" alt="photo-3" width="270" class="card-photo">
-            <h4 class="name-title">Николай Тарасов</h4>
+            <img src="./images/photo-3.jpg" alt="фото Николая Тарасова" width="270" height="260" class="card-photo">
+            <h3 class="name-title">Николай Тарасов</h3>
             <p class="profession-title">Marketing</p>
 
             <ul class="social-links-list">
               <li class="social-item">
-                <a href="" aria-label="Instagram link" class="social-link">
+                <a href="" aria-label="Instagram линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-instagram">
                     </use>
@@ -207,7 +213,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Twitter link" class="social-link">
+                <a href="" aria-label="Twitter линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-twitter">
                     </use>
@@ -215,7 +221,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Facebook link" class="social-link">
+                <a href="" aria-label="Facebook линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-facebook">
                     </use>
@@ -223,7 +229,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Linkedin link" class="social-link">
+                <a href="" aria-label="Linkedin линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-linkedin">
                     </use>
@@ -234,13 +240,13 @@
           </li>
 
           <li class="team-card">
-            <img src="./images/photo-4.jpg" alt="photo-4" width="270" class="card-photo">
-            <h4 class="name-title">Михаил Ермаков</h4>
+            <img src="./images/photo-4.jpg" alt="фото Михаила Ермакова" width="270" height="260" class="card-photo">
+            <h3 class="name-title">Михаил Ермаков</h3>
             <p class="profession-title">UI Designer</p>
 
             <ul class="social-links-list">
               <li class="social-item">
-                <a href="" aria-label="Instagram link" class="social-link">
+                <a href="" aria-label="Instagram линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-instagram">
                     </use>
@@ -248,7 +254,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Twitter link" class="social-link">
+                <a href="" aria-label="Twitter линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-twitter">
                     </use>
@@ -256,7 +262,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Facebook link" class="social-link">
+                <a href="" aria-label="Facebook линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-facebook">
                     </use>
@@ -264,7 +270,7 @@
                 </a>
               </li>
               <li class="social-item">
-                <a href="" aria-label="Linkedin link" class="social-link">
+                <a href="" aria-label="Linkedin линк" class="social-link">
                   <svg class="social-logo">
                     <use href="./images/icons-sprite.svg#icon-linkedin">
                     </use>
@@ -280,7 +286,7 @@
     <!-- CLIENTS SECTION -->
     <section class="clients-section">
       <div class="container">
-        <h3 class="section-title">Постоянные клиенты</h3>
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="clients-list">
           <li class="clients-item">
             <a href="" class="clients-link">
@@ -336,15 +342,24 @@
 
       <div class="footer-container">
 
-        <a href="./index.html" class="studio-logo footer-logo">
+        <a href="./index.html" aria-label="логотип" class="studio-logo footer-logo">
           <span class="logo">Web</span><span class="footer-inverse-logo">Studio</span></a>
-
-        <address class="footer-address"> г. Киев, пр-т Леси Украинки, 26</address>
-
-        <ul class="footer-contact-list">
-          <li class="item"><a href="info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
-          <li class="item"><a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a></li>
-        </ul>
+        <address>
+          <ul class="footer-contact-list">
+            <li class="item">
+              <a href="https://goo.gl/maps/eNaVhsvZeaJ7tmYx6" target="_blank" class="footer-contact footer-address">
+                г. Киев, пр-т Леси
+                Украинки, 26
+              </a>
+            </li>
+            <li class="item"><a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com
+              </a>
+            </li>
+            <li class="item"><a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
       </div>
 
       <div class="footer-links">
@@ -352,7 +367,7 @@
 
         <ul class="social-links-list">
           <li class="social-item">
-            <a href="" aria-label="Instagram link" class="social-link footer-social-link">
+            <a href="" aria-label="Instagram линк" class="social-link footer-social-link">
               <svg class="social-logo">
                 <use href="./images/icons-sprite.svg#icon-instagram">
                 </use>
@@ -360,7 +375,7 @@
             </a>
           </li>
           <li class="social-item">
-            <a href="" aria-label="Twitter link" class="social-link footer-social-link">
+            <a href="" aria-label="Twitter линк" class="social-link footer-social-link">
               <svg class="social-logo">
                 <use href="./images/icons-sprite.svg#icon-twitter">
                 </use>
@@ -368,7 +383,7 @@
             </a>
           </li>
           <li class="social-item">
-            <a href="" aria-label="Facebook link" class="social-link footer-social-link">
+            <a href="" aria-label="Facebook линк" class="social-link footer-social-link">
               <svg class="social-logo">
                 <use href="./images/icons-sprite.svg#icon-facebook">
                 </use>
@@ -376,7 +391,7 @@
             </a>
           </li>
           <li class="social-item">
-            <a href="" aria-label="Linkedin link" class="social-link footer-social-link">
+            <a href="" aria-label="Linkedin линк" class="social-link footer-social-link">
               <svg class="social-logo">
                 <use href="./images/icons-sprite.svg#icon-linkedin">
                 </use>

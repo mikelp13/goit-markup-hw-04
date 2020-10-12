@@ -34,6 +34,17 @@ h6 {
   color: var(--title-text-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* NAVIGATION */
 .page-header {
   background-color: var(--primary-white-color);
@@ -404,14 +415,6 @@ h6 {
   margin-bottom: 20px;
 }
 
-.footer-address {
-  margin-bottom: 9px;
-  font-style: normal;
-  color: var(--primary-white-color);
-  font-size: 14px;
-  line-height: 1.71;
-}
-
 .footer-contact-list .item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -419,14 +422,21 @@ h6 {
 .footer-contact {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
   text-decoration: none;
+
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-address {
+  color: var(--primary-white-color);
+}
+
 /* PORTFOLIO PAGE */
-.portfolio-page {
-  padding-top: 94px;
-  padding-bottom: 94px;
+
+.projects-section {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .radio-button-list {
